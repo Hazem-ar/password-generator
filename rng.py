@@ -1,6 +1,6 @@
 import random
 
-x = random.randrange(1, 9999999)
+x = random.randrange(1, 999999999)
 
 number_array = [int(digit) for digit in str(x)]
 print("The list from number is:", number_array)
